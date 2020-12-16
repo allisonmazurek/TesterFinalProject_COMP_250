@@ -5,7 +5,6 @@ Clone this repository to your directory of choice.
 Add the following .java files to /src/main/java/finalproject
 * MyWebGraph.java
 ∗ Sorting.java
-∗ HoneyBee.java 
 ∗ SeachEngine.java
 ∗ XmlParser.java 
 
