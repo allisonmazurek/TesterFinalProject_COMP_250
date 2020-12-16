@@ -12,7 +12,7 @@ Add the following .java files to /src/main/java/finalproject
 ![screenshot](https://github.com/allisonmazurek/TesterFinalProject_COMP_250/blob/master/fileshere.png)
 
 # FOR THE TESTER TO WORK 
-# Add the following constructor to SearchEngine.java
+Add the following constructor to SearchEngine.java
 
  public SearchEngine(){
 
