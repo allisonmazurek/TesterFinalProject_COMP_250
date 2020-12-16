@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+<webpage name="A">
+    <link name="B" />
+    <link name="C" />
+    <rank value="1.270" />
+    <content value="0952663565 0663674451 5928627295 1519254007 7150009686 7614423011 6586008889 4939957667"/>
+</webpage>
+
+<webpage name="B">
+    <link name="A" />
+    <link name="C" />
+    <link name="D" />
+    <rank value="0.819" />
+    <content value="9068347470 7635743784 0285275009 3740770036 0548427363 6795855698 3740770036 5494122122"/>
+</webpage>
+
+<webpage name="C">
+    <link name="A" />
+    <rank value="1.274" />
+    <content value="7871509127 3335050628 3740770036 4580968426 0823656729 5496960782 6010933711 7179029061 3507354539"/>
+</webpage>
+
+<webpage name="D">
+    <link name="C" />
+    <rank value="0.636" />
+    <content value="2393368125 0765457981 2078273722 3740770036 5243054669 2807185277 8258010535 6452353679 9599444132" />
+</webpage>
+</test>
