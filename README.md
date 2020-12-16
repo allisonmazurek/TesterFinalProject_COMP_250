@@ -14,12 +14,10 @@ Add the following .java files to /src/main/java/finalproject
 # FOR THE TESTER TO WORK 
 Add the following constructor to SearchEngine.java
 
- public SearchEngine(){
-
+ 
+public SearchEngine(){
 		this.wordIndex = new HashMap<String, ArrayList<String>>();
-		this.internet = new MyWebGraph();
-		
- }
+		this.internet = new MyWebGraph();	
+		}
 
-# Enjoy!
-Allison :)
+# Enjoy! Allison :)
