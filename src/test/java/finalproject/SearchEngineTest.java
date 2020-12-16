@@ -18,7 +18,6 @@ class SearchEngineTest {
         try {
             actualEngine = new SearchEngine("Test1.xml");
             actualEngine.crawlAndIndex("A");
-
         }
         catch (Exception e) {
             System.out.println("Exception Found: " + e.toString() + "\n");
@@ -141,7 +140,7 @@ class SearchEngineTest {
     void getResults() {
        actualEngine.assignPageRanks(0.01);
         assertAll(
-                () -> assertTrue(new ArrayList<String>(Arrays.asList("C", "B", "D")).equals(actualEngine.getResults("3740770036")))
+                () -> assertEquals(new ArrayList<String>(Arrays.asList("C", "B", "D")), actualEngine.getResults("3740770036"))
         );
     }
 }
